@@ -1,0 +1,386 @@
+h1 {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vw;
+    background-color: rgb(5, 5, 58);
+    padding: 0.3em 3em;
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    margin-left: 1em;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0em 0.3em;
+    border: 0.1em solid white;
+    border-radius: 0.9em;
+    transition: background-color 0.5s, border-color 0.5s;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: darkblue;
+    border-color: green;
+}
+
+main {
+    background-color: #C3CAE2;
+    padding: 2em 3em;
+}
+
+.logo img {
+    width: 3.7em;
+    height: auto;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0em;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.index section {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.index section div h2 {
+    text-align: center;
+}
+
+.index section>p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.index article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-style: solid;
+    background-color: rgb(57, 31, 31);
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+.index article h3 {
+    font-size: medium;
+    color: rgb(192, 134, 25);
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.index article p {
+    color: wheat;
+    text-align: left;
+    padding-top: 1em;
+}
+
+.index article img {
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 25%;
+}
+
+.index article:nth-child(2) {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.index article button {
+    margin: 0 auto;
+    width: 25%;
+}
+
+.see_more {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-style: italic;
+    display: flex;
+    justify-content: end;
+}
+
+.see_more a {
+    color: rgb(57, 31, 31);
+    transition: all 500ms;
+}
+
+.see_more a:hover {
+    scale: 110%;
+    color: brown;
+}
+
+footer p {
+    margin-left: 1em;
+    color: white;
+}
+
+
+/* css afleveringen */
+
+
+
+.afleveringen section:nth-child(1)>article h3 {
+    text-align: start;
+    margin-bottom: 1em;
+    color: rgb(192, 134, 25);
+}
+
+
+.container-afleveringen {
+    display: flex;
+}
+
+.afleveringen section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+.afleveringen section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 32em;
+    border-radius: 1.5em;
+    margin-left: 5.5em;
+    padding: 1em;
+
+}
+
+/* tshirt beker images */
+.afleveringen section:nth-child(2) img {
+    display: flex;
+    padding: 1em 1em 0em 1em;
+    width: 10em;
+    border-radius: 1.5em;
+    background-color: rgb(221, 180, 99);
+}
+
+.afleveringen article {
+    display: flex;
+    background-color: rgb(57, 31, 31);
+    border-radius: 3.8em;
+    padding: 2em;
+    margin: 1em 0em;
+    align-items: center;
+}
+
+.afleveringen article div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+}
+
+.afleveringen article img {
+    padding-right: 8em;
+    box-sizing: border-box;
+    max-width: 30em;
+}
+
+.afleveringen section:nth-child(2)>article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+}
+
+.afleveringen section:nth-child(2)>article h3 {
+    font-size: medium;
+    color: rgb(192, 134, 25);
+    margin-bottom: 0.5em;
+}
+
+
+.afleveringen .see_more {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-style: italic;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1em;
+}
+
+.afleveringen .see_more a {
+    color: wheat;
+    transition: all 500ms;
+}
+
+.afleveringen .see_more a:hover {
+    scale: 110%;
+    color: brown;
+}
+
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+audio {
+    width: 21em;
+}
+
+
+
+/* Over Ons Pagina CSS */
+
+.biografie {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0em;
+}
+
+.yunus {
+    display: flex;
+    align-items: center;
+}
+
+.yunus img {
+    width: 10em;
+    height: 11em;
+}
+
+.yunus p {
+    width: 31em;
+
+}
+
+
+
+.liwa img {
+    width: 10em;
+    height: 11em;
+}
+
+.liwa p {
+    width: 31em;
+}
+
+.liwa {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.koopons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 63em;
+    margin-bottom: 5em;
+}
+
+.overons section img {
+    width: 16em;
+    height: 18em;
+}
+
+.products-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    justify-items: center;
+}
+
+.products-grid img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 250ms;
+}
+
+.products-grid img:hover{
+    scale: 120%;
+
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
