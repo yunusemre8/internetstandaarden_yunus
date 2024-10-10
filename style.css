@@ -158,11 +158,6 @@ video {
     border-top-right-radius: 1em;
 }
 
-.index article button {
-    margin: 0 auto;
-    width: 25%;
-}
-
 .see_more {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
